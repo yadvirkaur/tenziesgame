@@ -3,6 +3,7 @@ How to get this done?
 https://www.geeksforgeeks.org/how-to-deploy-your-react-websites-on-github/
 
 1. create a React application with following command on cmd:
+
    $ create-react-app my-app
 
 2. my-app folder is created in C drive. Now enter your new application using VS code. Write your code.
