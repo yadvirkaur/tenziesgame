@@ -1,3 +1,52 @@
+How to get this done?
+
+https://www.geeksforgeeks.org/how-to-deploy-your-react-websites-on-github/
+
+1. create a React application with following command on cmd:
+   $ create-react-app my-app
+
+2. my-app folder is created in C drive. Now enter your new application using VS code. Write your code.
+
+3. You will see your application is running on a local development server http://localhost:3000. Run the following command using VS terminal.
+   $ npm start
+
+4. Create a repo on Github : my-app
+
+5. Install the gh-pages package as a “dev-dependency” of the app by runing the following command using VS terminal.
+
+   $ npm install --save gh-pages
+
+6)Add some properties to the app’s package.json file.
+
+    "homepage": "https://yadvirkaur.github.io/my-app",
+
+In the existing scripts property, add a predeploy property and a deploy property:
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+
+7. In this step create a git repository in the app’s folder and add the GitHub repository as a “remote” in your local git repository.
+
+   $ git init
+   $ git add .
+   $ git commit -m "first commit"
+   $ git branch -M main
+   $ git remote add origin https://github.com/yadvirkaur/my-app.git
+   $ git push -u origin main
+
+8. Now here is the magic. Follow the command below and generate a production build of your app, to deploy your code on GitHub pages.
+
+   $ npm run deploy
+
+That’s it. Your React application is published on GitHub pages and if you want to verify it just go to the settings tab of your application in your Github repository and scroll down and click on pages and you will see:
+
+    Your site is live at https://yadvirkaur.github.io/tenziesgame/
+
+
+
+
+    AND ITS DONE!!!!!!!!!!!!!!!!!!!!!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
