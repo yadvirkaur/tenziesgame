@@ -32,7 +32,7 @@ In the existing scripts property, add a predeploy property and a deploy property
    $ git init  
    $ git add .  
    $ git commit -m "first commit"  
-   $ git branch -M main
+   $ git branch -M main 
    $ git remote add origin https://github.com/yadvirkaur/my-app.git  
    $ git push -u origin main
 
