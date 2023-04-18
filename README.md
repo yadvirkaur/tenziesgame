@@ -4,7 +4,7 @@ https://www.geeksforgeeks.org/how-to-deploy-your-react-websites-on-github/
 
 1. create a React application with following command on cmd:
 
-   $ create-react-app my-app
+   $ npx create-react-app my-app
 
 2. my-app folder is created in C drive. Now enter your new application using VS code. Write your code.
 
@@ -32,7 +32,8 @@ In the existing scripts property, add a predeploy property and a deploy property
    $ git init  
    $ git add .  
    $ git commit -m "first commit"  
-   $ git branch -M main
+   $ git branch -M main       
+   
    $ git remote add origin https://github.com/yadvirkaur/my-app.git  
    $ git push -u origin main
 
