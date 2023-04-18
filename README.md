@@ -1,3 +1,5 @@
+Tenzi dice game is an excellent choice for children, with features such as time tracking and best-score tracking to enhance the gameplay.
+
 How to get this done?
 
 https://www.geeksforgeeks.org/how-to-deploy-your-react-websites-on-github/
